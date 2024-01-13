@@ -1,4 +1,4 @@
-const usersData = require("../persistence/usersData.js")
+const usersData = require("../dao/usersData.js")
 
 function getAllUsers() {
     return usersData.getAllUsers()

@@ -1,4 +1,4 @@
-const productsData = require("../persistence/productsData.js")
+const productsData = require("../dao/productsData.js")
 
 function getAllProducts() {
     return productsData.getAllProducts()

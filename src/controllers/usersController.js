@@ -1,4 +1,4 @@
-const usersService = require("../services/usersService.js")
+const usersService = require("../services/usersService.js")/*const users = []*/
 
 function getAllUsers(req, res) {
     const users = usersService.getAllUsers()
